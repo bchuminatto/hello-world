@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editlive>   
+    <document>
+        <html>
+            <head>
+            </head>
+            <body/>
+        </html>
+    </document>
+    <!--This line to save the file in utf -8 I need a german,hebrew,chinese char here: Möchten עברית 主元音 -->
+    <ephoxLicenses>
+	<license
+		accountID="4C19DA55A7D9"
+		domain="LIVEPERSON"
+		expiration=""
+		forceActive="false"
+		key="0FFF-CEFF-910B-BE42"
+		eqEditor="false"
+		productivityPack="false"
+		licensee="LIVEPERSON"
+		product="EditLive for Java"
+		release="8.0"
+	    />
+    </ephoxLicenses>
+    <spellCheck jar="file:/Users/bchuminatto/LivePerson/spellchecker/en_us_4_0.jar" showOnDownload="false"
+        startBackgroundChecking="true" useNotModified="false"/>
+    <htmlFilter allowUnknownTags="true" commentStyles="true"
+        encloseText="true" indentContent="false" logicalEmphasis="true"
+        outputXHTML="true" outputXML="false" quoteMarks="false"
+        uppercaseAttributes="false" uppercaseTags="false" wrapLength="0"/>
+    <wysiwygEditor brOnEnter="true" disableInlineImageResizing="false"
+        disableInlineTableResizing="false" enableTrackChanges="false"
+        showDocumentNavigator="false" showTableGridlines="false"
+        tabPlacement="off" useEphoxLookAndFeel="false"/>
+    
+    <sourceEditor enabled="false" showBodyOnly="false"/>
+    <wordImport styleOption="clean"/>
+    <htmlImport styleOption="clean"/>
+    <plugins>
+        <plugin name="spelling" />
+    </plugins>
+    <mediaSettings>
+        <httpUpload base="" href=""/>
+        <images allowLocalImages="false" allowUserSpecified="false">
+            <imageList/>
+        </images>
+        <multimedia>
+            <types/>
+        </multimedia>
+    </mediaSettings>
+    <hyperlinks>
+        <hyperlinkList/>
+        <mailtoList/>
+    </hyperlinks>
+    <menubar showAboutMenu="false"/>
+    <toolbars/>
+    <shortcutMenu>
+        <shrtMenu>
+            <shrtMenuItem imageURL="file:/Users/bchuminatto/LivePerson/images/undo.gif" name="undo"/>
+            <shrtMenuItem imageURL="file:/Users/bchuminatto/LivePerson/images/redo.gif" name="redo"/>
+            <shrtMenuSeparator/>
+            <shrtMenuItem imageURL="file:/Users/bchuminatto/LivePerson/images/cut.gif" name="cut"/>
+            <shrtMenuItem imageURL="file:/Users/bchuminatto/LivePerson/images/copy.gif" name="copy"/>
+            <shrtMenuItem imageURL="file:/Users/bchuminatto/LivePerson/images/paste.gif" name="paste"/>
+        </shrtMenu>
+    </shortcutMenu>
+</editlive>
